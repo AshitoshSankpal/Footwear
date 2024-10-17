@@ -1,0 +1,8 @@
+.allprodback{
+    background-image: linear-gradient(to bottom, pink , yellow);
+}
+.border01{
+    background-image: linear-gradient(to bottom, violet, rgb(255, 169, 169));
+    border: 2px black solid;
+
+}

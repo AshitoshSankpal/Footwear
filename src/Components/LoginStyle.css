@@ -1,0 +1,45 @@
+.Login-container {
+  width: 100hw;
+  height: 80vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 213, 0),
+    rgb(62, 14, 68),
+    white
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: solid 1.5px black;
+  width: 700px;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, rgb(112, 214, 159), rgb(20, 97, 173));
+}
+.inner span {
+  padding: 10px;
+  margin: 10px;
+  font-size: larger;
+  font-weight: bold;
+  color: black;
+  
+}
+span input {
+  padding-left: 30px;
+  margin-left: 30px;
+}
+.login-btn{
+    background-color: green;
+    width: 300px;
+    border-radius: 50px;
+
+}
+.login-btn:hover{
+    color: white;
+}
